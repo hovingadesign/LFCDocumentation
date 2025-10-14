@@ -1,5 +1,9 @@
 ---
+layout: default
 title: "Publish and Copy SermonAudio ID"
+nav_order: 5
+parent: Live Stream – Tasks
+grand_parent: Documentation
 description: "Post-stream: take the recent webcast, update details, publish, and copy the ID in SermonAudio."
 tags: [how-to, live-stream, sermonaudio]
 created: 2025-10-13
@@ -41,9 +45,6 @@ Complete the post-stream flow in SermonAudio to finalize the webcast, publish it
    ![Publish / copy ID – 11:07:18](../../SourceScrennshots/Screenshot%202025-09-21%20110718.png)
 
    ![Publish / copy ID – 11:07:36](../../SourceScrennshots/Screenshot%202025-09-21%20110736.png)
-
-   
-   
 
 4) Confirm public availability
    - Ensure the published item appears on the channel/feed

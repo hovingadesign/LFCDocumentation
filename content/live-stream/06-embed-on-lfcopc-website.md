@@ -1,5 +1,9 @@
 ---
+layout: default
 title: "Embed Sermon on lfcopc.org"
+nav_order: 6
+parent: Live Stream – Tasks
+grand_parent: Documentation
 description: "Embed the SermonAudio ID on the website and add service details."
 tags: [how-to, live-stream, website]
 created: 2025-10-13

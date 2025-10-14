@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Build ProPresenter AM/PM Playlists"
+nav_order: 2
 description: "Search for and add slides/songs to AM and PM playlists in ProPresenter."
 tags: [how-to, live-stream, propresenter]
 created: 2025-10-13

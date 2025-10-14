@@ -1,5 +1,9 @@
 ---
+layout: default
 title: "Add New Song to ProPresenter"
+nav_order: 7
+parent: Live Stream – Tasks
+grand_parent: Documentation
 description: "Create a new song/presentation and add it to the playlist."
 tags: [how-to, live-stream, propresenter]
 created: 2025-10-13

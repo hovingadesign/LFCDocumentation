@@ -2,6 +2,8 @@
 
 This repository contains documentation, how-to guides, and reference materials. It follows a documentation-first structure optimized for clarity, consistency, and long-term maintainability.
 
+Published site: [GitHub Pages](https://hovingadesign.github.io/LFCDocumentation/)
+
 ## Structure
 
 - `content/` – Markdown guides and topic pages
@@ -11,7 +13,25 @@ This repository contains documentation, how-to guides, and reference materials. 
 - `.github/` – Repo-level configs and instructions
 - `SourceScrennshots/` – Existing raw screenshot source folder (kept as-is)
 
-## How to add a new How-To
+## Adding Content
+
+### Quick Start (GitHub web interface)
+
+1. Navigate to `content/` or `content/live-stream/` in GitHub
+2. Create New File → `your-guide-name.md`
+3. Add minimal front matter:
+
+   ```yaml
+   ---
+   title: "Your Guide Title"
+   nav_order: 10
+   ---
+   ```
+
+4. Write content using markdown
+5. Commit directly to main → site auto-builds in ~2 minutes
+
+### New How-To Guide (local or GitHub)
 
 1. Copy `content/templates/how-to-template.md` into `content/` and rename it descriptively (kebab-case).
 2. Fill in front matter (title, description, tags) and complete the sections.

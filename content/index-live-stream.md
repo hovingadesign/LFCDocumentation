@@ -1,5 +1,8 @@
 ---
+layout: default
 title: "Live Stream Workflow – Task Guides"
+nav_order: 1
+parent: Documentation
 description: "Seven simple task guides covering setup, running, and wrap-up, aligned to your sequential screenshots."
 tags: [how-to, live-stream]
 created: 2025-10-13

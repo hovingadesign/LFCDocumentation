@@ -1,5 +1,7 @@
 ---
+layout: default
 title: "Verify Live on HELO and Platforms"
+nav_order: 4
 description: "Confirm live state via AJA HELO web UI, SermonAudio destination, and YouTube recast."
 tags: [how-to, live-stream, helo, sermonaudio, youtube]
 created: 2025-10-13

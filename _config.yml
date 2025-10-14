@@ -1,0 +1,40 @@
+title: LFC Documentation
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# Set url/baseurl for GitHub Pages project sites automatically at build time.
+# You can optionally set these for local testing:
+# url: https://hovingadesign.github.io
+# baseurl: /LFCDocumentation
+
+color_scheme: nil
+logo:
+
+just_the_docs:
+  search_enabled: true
+  aux_links:
+    GitHub Repository: https://github.com/hovingadesign/LFCDocumentation
+
+# Defaults to reduce front matter needed for new guides
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: default
+      parent: Documentation
+  - scope:
+      path: "content/live-stream"
+    values:
+      layout: default
+      parent: "Live Stream – Tasks"
+      grand_parent: Documentation
+
+# Exclude raw sources folder from site build
+exclude:
+  - SourceScrennshots/
+  - README.md
+  - images/README.md
+  - .vscode/
+  - _archive/
+  - content/templates/
