@@ -26,17 +26,17 @@ Create a new song/presentation item in ProPresenter and insert it into the activ
 1) Create a new song/presentation
    - Use the New > Presentation (or Song) action; name it consistently.
 
-   ![Create new song – 11:34:04](../../SourceScrennshots/Screenshot%202025-09-21%20113404.png)
+   ![Create new song]({{ '/images/live-stream/07-create-song.png' | relative_url }})
 
 2) Add lyrics/slides and formatting
    - Create slides for verse/chorus/bridge; apply your standard theme/template.
 
-   ![Edit slides – 11:34:33](../../SourceScrennshots/Screenshot%202025-09-21%20113433.png)
+   ![Edit slides]({{ '/images/live-stream/07-edit-slides.png' | relative_url }})
 
 3) Add the item to the desired playlist
    - Drag the new item into the service playlist in the correct order.
 
-   ![Add to playlist – 11:35:58](../../SourceScrennshots/Screenshot%202025-09-21%20113558.png)
+   ![Add to playlist]({{ '/images/live-stream/07-add-to-playlist.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -53,4 +53,4 @@ Return to the [index](../index-live-stream.md) or continue adjusting the service
 
 ---
 
-Previous: [Embed Sermon on lfcopc.org](06-embed-on-lfcopc-website.md) · Next: [Live Stream Workflow – Task Guides](../index-live-stream.md)
+Previous: [Embed Sermon on lfcopc.org]({{ '/content/live-stream/06-embed-on-lfcopc-website' | relative_url }}) · Next: [Live Stream Workflow – Task Guides]({{ '/content/index-live-stream' | relative_url }})

@@ -25,13 +25,13 @@ Update the webcast metadata (title, speaker, and other fields) in SermonAudio be
    - Log in and choose Webcasts from the dashboard or navigation.
    - Locate today’s event entry.
 
-   ![SermonAudio Webcasts – 09:16:05](../../SourceScrennshots/Screenshot%202025-09-21%20091605.png)
+   ![SermonAudio Webcasts]({{ '/images/live-stream/03-sermonaudio-webcasts.png' | relative_url }})
 
 2) Update webcast metadata
    - Edit Title, Speaker, Series (if applicable), and any additional fields used by your workflow.
    - Save changes and confirm the details display correctly.
 
-   ![Update webcast details – 09:16:41](../../SourceScrennshots/Screenshot%202025-09-21%20091641.png)
+   ![Update webcast details]({{ '/images/live-stream/03-sermonaudio-update-details.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -48,4 +48,4 @@ Proceed to [Verify Live on HELO and Platforms](04-verify-live-helo-platforms.md)
 
 ---
 
-Previous: [Build ProPresenter AM/PM Playlists](02-build-propresenter-playlists.md) · Next: [Verify Live on HELO and Platforms](04-verify-live-helo-platforms.md)
+Previous: [Build ProPresenter AM/PM Playlists]({{ '/content/live-stream/02-build-propresenter-playlists' | relative_url }}) · Next: [Verify Live on HELO and Platforms]({{ '/content/live-stream/04-verify-live-helo-platforms' | relative_url }})

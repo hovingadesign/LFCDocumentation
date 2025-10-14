@@ -26,26 +26,26 @@ Use Blackmagic Design ATEM Software Control to restore camera grading and switch
    - Open from Start Menu > Blackmagic Design > ATEM Software Control.
    - Confirm the app opens to the default switcher layout.
 
-   ![ATEM launch – 09:10:56](../../SourceScrennshots/Screenshot%202025-09-21%20091056.png)
+   ![ATEM launch]({{ '/images/live-stream/01-atem-launch.png' | relative_url }})
 
 2) Connect to the switcher
    - If prompted, select your switcher from the list or enter its IP address.
    - Verify the connection in the app title bar and that Program/Preview update live.
 
-   ![ATEM connect – 09:11:51](../../SourceScrennshots/Screenshot%202025-09-21%20091151.png)
+   ![ATEM connect]({{ '/images/live-stream/01-atem-connect.png' | relative_url }})
 
 3) Restore camera grades and switcher settings
    - If you keep backups: File > Restore… then select the latest known-good backup.
    - If you use macros: Open the Macros panel and run your “Restore/Preflight” macro.
    - For manual grade recall: Open Camera Control > select each camera > Color Corrector and set Lift/Gamma/Gain/Saturation to your standard values.
 
-   ![Restore camera grades – 09:12:32](../../SourceScrennshots/Screenshot%202025-09-21%20091232.png)
+   ![Restore camera grades]({{ '/images/live-stream/01-atem-restore-grades.png' | relative_url }})
 
 4) Confirm final switcher state
    - Verify the correct Program/Preview sources, upstream/downstream keyers, and any SuperSource layout.
    - Open the Audio tab/mixer and confirm inputs are at expected levels.
 
-   ![Confirm switcher state – 09:12:41](../../SourceScrennshots/Screenshot%202025-09-21%20091241.png)
+   ![Confirm switcher state]({{ '/images/live-stream/01-atem-confirm-state.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -62,4 +62,4 @@ Proceed to [Build ProPresenter AM/PM Playlists](02-build-propresenter-playlists.
 
 ---
 
-Previous: [Live Stream Workflow – Task Guides](../index-live-stream.md) · Next: [Build ProPresenter AM/PM Playlists](02-build-propresenter-playlists.md)
+Previous: [Live Stream Workflow – Task Guides]({{ '/content/index-live-stream' | relative_url }}) · Next: [Build ProPresenter AM/PM Playlists]({{ '/content/live-stream/02-build-propresenter-playlists' | relative_url }})

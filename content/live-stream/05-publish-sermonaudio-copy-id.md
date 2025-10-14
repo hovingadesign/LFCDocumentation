@@ -26,25 +26,25 @@ Complete the post-stream flow in SermonAudio to finalize the webcast, publish it
 1) Open the recent webcast entry
    - Locate the post-stream webcast in SermonAudio.
 
-   ![Recent webcast – 10:55:03](../../SourceScrennshots/Screenshot%202025-09-21%20105503.png)
+   ![Recent webcast]({{ '/images/live-stream/05-recent-webcast.png' | relative_url }})
 
 2) Update details and metadata
    - Review Title, Speaker, Date/Time, and any additional fields.
    - Save and confirm changes.
 
-   ![Update details – 10:56:33](../../SourceScrennshots/Screenshot%202025-09-21%20105633.png)
+   ![Update details]({{ '/images/live-stream/05-update-details.png' | relative_url }})
 
-   ![Watch page details – 10:56:53](../../SourceScrennshots/Screenshot%202025-09-21%20105653.png)
+   ![Watch page details]({{ '/images/live-stream/05-watch-page.png' | relative_url }})
 
 3) Complete publishing workflow and copy the SermonAudio ID
    - Follow the publish/confirmation prompts until the item is live.
    - Copy the generated ID for website embedding.
 
-   ![Publish / copy ID – 11:06:58](../../SourceScrennshots/Screenshot%202025-09-21%20110658.png)
+   ![Publish step 1]({{ '/images/live-stream/05-publish-step1.png' | relative_url }})
 
-   ![Publish / copy ID – 11:07:18](../../SourceScrennshots/Screenshot%202025-09-21%20110718.png)
+   ![Publish step 2]({{ '/images/live-stream/05-publish-step2.png' | relative_url }})
 
-   ![Publish / copy ID – 11:07:36](../../SourceScrennshots/Screenshot%202025-09-21%20110736.png)
+   ![Publish step 3]({{ '/images/live-stream/05-publish-step3.png' | relative_url }})
 
 4) Confirm public availability
    - Ensure the published item appears on the channel/feed
@@ -60,11 +60,11 @@ Complete the post-stream flow in SermonAudio to finalize the webcast, publish it
 
 ## Next Steps
 
-Proceed to [Embed Sermon on lfcopc.org](06-embed-on-lfcopc-website.md).
+Proceed to [Embed Sermon on lfcopc.org]({{ '/content/live-stream/06-embed-on-lfcopc-website' | relative_url }}).
 
 ---
 
-Previous: [Verify Live on HELO and Platforms](04-verify-live-helo-platforms.md) · Next: [Embed Sermon on lfcopc.org](06-embed-on-lfcopc-website.md)
+Previous: [Verify Live on HELO and Platforms]({{ '/content/live-stream/04-verify-live-helo-platforms' | relative_url }}) · Next: [Embed Sermon on lfcopc.org]({{ '/content/live-stream/06-embed-on-lfcopc-website' | relative_url }})
 
 ---
 

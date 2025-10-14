@@ -10,5 +10,5 @@ Welcome to the documentation collection. Choose a topic from the navigation.
 
 Featured:
 
-- [Live Stream Workflow – Task Guides](/content/index-live-stream)
-- [Live Stream – Tasks](/content/live-stream/)
+- [Live Stream Workflow – Task Guides]({{ '/content/index-live-stream' | relative_url }})
+- [Live Stream – Tasks]({{ '/content/live-stream/' | relative_url }})

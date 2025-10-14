@@ -27,17 +27,17 @@ Use the SermonAudio ID to embed the sermon on the lfcopc.org website and fill in
 1) Open the website editor/page for the service
    - Log in to the CMS or site editor and open the page/post for the service.
 
-   ![Open site editor – 11:08:13](../../SourceScrennshots/Screenshot%202025-09-21%20110813.png)
+   ![Open site editor]({{ '/images/live-stream/06-site-editor.png' | relative_url }})
 
 2) Insert the SermonAudio embed using the copied ID
    - Add the SermonAudio player via the site’s shortcode/HTML widget using the copied ID.
 
-   ![Embed ID – 11:08:01](../../SourceScrennshots/Screenshot%202025-09-21%20110801.png)
+   ![Embed ID]({{ '/images/live-stream/06-embed-id.png' | relative_url }})
 
 3) Add details (title, speaker, date) and update the page
    - Fill in the page’s title/metadata as needed and publish/update.
 
-   ![Update page details – 11:09:40](../../SourceScrennshots/Screenshot%202025-09-21%20110940.png)
+   ![Update page details]({{ '/images/live-stream/06-update-page.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -55,4 +55,4 @@ Optional: Update site navigation or featured content to point to the new sermon.
 
 ---
 
-Previous: [Publish and Copy SermonAudio ID](05-publish-sermonaudio-copy-id.md) · Next: [Add New Song to ProPresenter](07-add-new-song-propresenter.md)
+Previous: [Publish and Copy SermonAudio ID]({{ '/content/live-stream/05-publish-sermonaudio-copy-id' | relative_url }}) · Next: [Add New Song to ProPresenter]({{ '/content/live-stream/07-add-new-song-propresenter' | relative_url }})

@@ -25,14 +25,14 @@ Prepare the AM and PM service playlists by searching for and adding slides/songs
    - Launch ProPresenter; open the Playlists pane.
    - Select today’s AM and PM playlists (create new if needed).
 
-   ![ProPresenter playlists – 09:13:49](../../SourceScrennshots/Screenshot%202025-09-21%20091349.png)
+   ![ProPresenter playlists]({{ '/images/live-stream/02-propresenter-playlists.png' | relative_url }})
 
 2) Search and add items to the playlist(s)
    - Use the search bar to find songs/slides in the library.
    - Drag items into AM/PM playlists; reorder via drag-and-drop.
    - Rename playlist headings if needed (e.g., date + service time).
 
-   ![Add items to playlists – 09:14:28](../../SourceScrennshots/Screenshot%202025-09-21%20091428.png)
+   ![Add items to playlists]({{ '/images/live-stream/02-propresenter-add-items.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -49,4 +49,4 @@ Proceed to [Update SermonAudio Webcast Details](03-update-sermonaudio-webcast.md
 
 ---
 
-Previous: [Restore ATEM Camera Grades](01-restore-atem-camera-grades.md) · Next: [Update SermonAudio Webcast Details](03-update-sermonaudio-webcast.md)
+Previous: [Restore ATEM Camera Grades]({{ '/content/live-stream/01-restore-atem-camera-grades' | relative_url }}) · Next: [Update SermonAudio Webcast Details]({{ '/content/live-stream/03-update-sermonaudio-webcast' | relative_url }})

@@ -25,22 +25,22 @@ Confirm that the stream is active on the encoder (HELO) and visible on SermonAud
 1) Open the AJA HELO web interface and confirm the status shows “Streaming”
    - Verify encoder bitrate, dropped frames, and connection state.
 
-   ![HELO web UI – 09:17:35](../../SourceScrennshots/Screenshot%202025-09-21%20091735.png)
+   ![HELO web UI]({{ '/images/live-stream/04-helo-web-ui.png' | relative_url }})
 
 2) Verify SermonAudio destination shows ingest/preview
    - Confirm a healthy preview/ingest indicator and that metadata matches the webcast details.
 
-   ![SermonAudio destination – 09:18:04](../../SourceScrennshots/Screenshot%202025-09-21%20091804.png)
+   ![SermonAudio destination]({{ '/images/live-stream/04-sermonaudio-destination.png' | relative_url }})
 
 3) Confirm YouTube recast is receiving and healthy
    - Check stream health/analytics for no errors; confirm latency mode is expected.
 
-   ![YouTube recast – 09:18:22](../../SourceScrennshots/Screenshot%202025-09-21%20091822.png)
+   ![YouTube recast]({{ '/images/live-stream/04-youtube-recast.png' | relative_url }})
 
 4) Final pre-service checks
    - Confirm title, thumbnail, and visibility settings are correct; verify latency.
 
-   ![Final platform checks – 09:18:43](../../SourceScrennshots/Screenshot%202025-09-21%20091843.png)
+   ![Final platform checks]({{ '/images/live-stream/04-final-checks.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
@@ -58,4 +58,4 @@ After service, proceed to [Publish and Copy SermonAudio ID](05-publish-sermonaud
 
 ---
 
-Previous: [Update SermonAudio Webcast Details](03-update-sermonaudio-webcast.md) · Next: [Publish and Copy SermonAudio ID](05-publish-sermonaudio-copy-id.md)
+Previous: [Update SermonAudio Webcast Details]({{ '/content/live-stream/03-update-sermonaudio-webcast' | relative_url }}) · Next: [Publish and Copy SermonAudio ID]({{ '/content/live-stream/05-publish-sermonaudio-copy-id' | relative_url }})
