@@ -1,13 +1,12 @@
----
 layout: default
 title: "Update SermonAudio Webcast Details"
-nav_order: 3
+nav_order: 5
 description: "Open SermonAudio, go to Webcasts, and update the title and speaker."
 tags: [how-to, live-stream, sermonaudio]
 created: 2025-10-13
 updated: 2025-10-13
 reqs: ["DOC-2"]
----
+nav_order: 5
 
 ## Update SermonAudio Webcast Details
 

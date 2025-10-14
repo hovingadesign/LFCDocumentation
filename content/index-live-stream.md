@@ -1,17 +1,14 @@
----
 layout: default
 title: "Live Stream Workflow – Task Guides"
 nav_order: 1
-parent: Documentation
 description: "Seven simple task guides covering setup, running, and wrap-up, aligned to your sequential screenshots."
 tags: [how-to, live-stream]
 created: 2025-10-13
 updated: 2025-10-13
 reqs: ["DOC-2"]
----
 
 ## Live Stream Workflow – Task Guides
-
+nav_order: 2
 ### Overview
 
 This index organizes the end-to-end live stream into seven focused tasks. Each task references the corresponding screenshots in `SourceScrennshots/` using timestamps to match your capture sequence.

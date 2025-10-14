@@ -8,7 +8,7 @@ plugins:
 # url: https://hovingadesign.github.io
 # baseurl: /LFCDocumentation
 
-color_scheme: nil
+color_scheme: dark
 logo:
 
 just_the_docs:
@@ -38,3 +38,4 @@ exclude:
   - .vscode/
   - _archive/
   - content/templates/
+  - docs/

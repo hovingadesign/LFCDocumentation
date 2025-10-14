@@ -1,9 +1,7 @@
 ---
 layout: default
 title: "Publish and Copy SermonAudio ID"
-nav_order: 5
-parent: Live Stream – Tasks
-grand_parent: Documentation
+nav_order: 7
 description: "Post-stream: take the recent webcast, update details, publish, and copy the ID in SermonAudio."
 tags: [how-to, live-stream, sermonaudio]
 created: 2025-10-13

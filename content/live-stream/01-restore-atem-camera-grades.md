@@ -1,13 +1,12 @@
----
 layout: default
 title: "Restore ATEM Camera Grades"
-nav_order: 1
+nav_order: 3
 description: "Open ATEM Software Control and restore camera color/grade and switcher settings."
 tags: [how-to, live-stream, atem]
 created: 2025-10-13
 updated: 2025-10-13
 reqs: ["DOC-2"]
----
+nav_order: 3
 
 ## Restore ATEM Camera Grades
 
