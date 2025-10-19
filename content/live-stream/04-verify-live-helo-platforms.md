@@ -21,35 +21,30 @@ Confirm that the stream is active on the encoder (HELO) and visible on SermonAud
 
 ## Steps
 
-1) Open the AJA HELO web interface and confirm the status shows “Streaming”
-   - Verify encoder bitrate, dropped frames, and connection state.
+1) Start the stream via the AJA HELO
+   - Use the "HELO RECORD" and "HELO STREAM" buttons on the Stream Deck to start the recording and live stream.
+   - Use the HELO web interface (http://192.168.0.52/) to verify stream is connected and running.
+   - Verify the "Alarms" is green and says "None"
 
    ![HELO web UI]({{ '/images/live-stream/04-helo-web-ui.png' | relative_url }})
 
 2) Verify SermonAudio destination shows ingest/preview
+   - In the "Webcasts" tab of Sermon Audio, ensure the stream is connected and that the YouTube Simulcast automatically started as it should.
    - Confirm a healthy preview/ingest indicator and that metadata matches the webcast details.
 
    ![SermonAudio destination]({{ '/images/live-stream/04-sermonaudio-destination.png' | relative_url }})
 
 3) Confirm YouTube recast is receiving and healthy
-   - Check stream health/analytics for no errors; confirm latency mode is expected.
+   - Login to YouTube (https://studio.youtube.com/) and navigate to the "Live" Tab
+   - Once the stream is started it should automatically appear here with the title entered into Sermon Audio.
 
    ![YouTube recast]({{ '/images/live-stream/04-youtube-recast.png' | relative_url }})
 
-4) Final pre-service checks
-   - Confirm title, thumbnail, and visibility settings are correct; verify latency.
+4) Confirm YouTube Settings
+   - Open the Live stream, YouTube will promt if this is "For Kids", you can choose No.
+   - You can then keep this window open to monitor the YouTube stream, but this is not neccesary
 
    ![Final platform checks]({{ '/images/live-stream/04-final-checks.png' | relative_url }})
-
-## Troubleshooting / Tips
-
-- If not live: check HELO status, network, and RTMP credentials
-- Confirm platform latency/bitrate match recommended settings
-
-## Developer docs (verify specifics)
-
-- AJA HELO user manual – web UI status indicators
-- SermonAudio and YouTube Live ingestion guidelines – bitrate, keyframe interval
 
 ## Next Steps
 
