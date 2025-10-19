@@ -12,11 +12,11 @@ nav_order: 3
 
 ## Overview
 
-Use Blackmagic Design ATEM Software Control to restore camera grading and switcher/switch state before service. This ensures cameras, color, and keys are consistent across services.
+Use Blackmagic Design ATEM Software Control to restore camera color settings before service. This ensures cameras, color, and keys are consistent across services.
 
 ## Prerequisites
 
-- ATEM switcher powered and on the same network
+- ATEM switcher (power switch: **SWITCH**) powered
 - ATEM Software Control installed on the workstation
 
 ## Steps
@@ -27,33 +27,25 @@ Use Blackmagic Design ATEM Software Control to restore camera grading and switch
 
    ![ATEM launch]({{ '/images/live-stream/01-atem-launch.png' | relative_url }})
 
-2) Connect to the switcher
-   - If prompted, select your switcher from the list or enter its IP address.
-   - Verify the connection in the app title bar and that Program/Preview update live.
+2) Open the restore panel to import saved settings
+   - From the main screen open "File" and choose "Restore"
 
    ![ATEM connect]({{ '/images/live-stream/01-atem-connect.png' | relative_url }})
 
 3) Restore camera grades and switcher settings
-   - If you keep backups: File > Restore… then select the latest known-good backup.
-   - If you use macros: Open the Macros panel and run your “Restore/Preflight” macro.
-   - For manual grade recall: Open Camera Control > select each camera > Color Corrector and set Lift/Gamma/Gain/Saturation to your standard values.
+   - The backed up settings are store at: C:\Users\Sound\Documents\ATEM Autosave\LFC 2023-04-23 09-17-46.xml
+   - Select LFC 2023-04-23 09-17-46.xml and choose "Open"
 
    ![Restore camera grades]({{ '/images/live-stream/01-atem-restore-grades.png' | relative_url }})
 
-4) Confirm final switcher state
-   - Verify the correct Program/Preview sources, upstream/downstream keyers, and any SuperSource layout.
-   - Open the Audio tab/mixer and confirm inputs are at expected levels.
+4) Confirm settings restore
+   - On the "Restore" panel, leave all checks as default and click "Restore"
 
    ![Confirm switcher state]({{ '/images/live-stream/01-atem-confirm-state.png' | relative_url }})
 
-## Troubleshooting / Tips
-
-- If the switcher doesn’t connect, verify IP settings and network cabling
-- Keep a known-good backup of your ATEM settings for quick restores
-
-## Developer docs (verify specifics)
-
-- Blackmagic Design ATEM Software Control user manual – confirm exact menu names and backup/restore flow
+5) Close ATEM Software Control
+   - At this point you will see the camera image update on the preview monitor
+   - You are done with ATEM Software Control and can close the program
 
 ## Next Steps
 
