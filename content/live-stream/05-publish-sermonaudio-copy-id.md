@@ -22,13 +22,17 @@ Complete the post-stream flow in SermonAudio to finalize the webcast, publish it
 ## Steps
 
 1) Open the recent webcast entry
-   - Locate the post-stream webcast in SermonAudio.
+   - Once the Live Stream is stopped via the "HELO" buttons on the stream deck, Sermon Audio will automatically end the Webcast and move the stream to "Recent Webcasts"
+   - Locate the post-stream webcast, click the "Archive" button and choose "Add to New Sermon Draft"
 
    ![Recent webcast]({{ '/images/live-stream/05-recent-webcast.png' | relative_url }})
 
 2) Update details and metadata
-   - Review Title, Speaker, Date/Time, and any additional fields.
-   - Save and confirm changes.
+   - You'll be asked to confirm the title and then click "Add Media".
+   - You will be taken to the new sermon draft page, on the media tab. Navigate to the "Details" tab.
+   - Review Title and Speaker, these should have been set pre-stream, verify they are correct
+   - Update the "Series" and "Bible References".
+   - Choose Publish.
 
    ![Update details]({{ '/images/live-stream/05-update-details.png' | relative_url }})
 
@@ -46,15 +50,6 @@ Complete the post-stream flow in SermonAudio to finalize the webcast, publish it
 
 4) Confirm public availability
    - Ensure the published item appears on the channel/feed
-
-## Troubleshooting / Tips
-
-- If ID is not visible, check publication status and permissions
-- Keep a log of IDs for site embedding
-
-## Developer docs (verify specifics)
-
-- SermonAudio documentation – publishing and item identifiers
 
 ## Next Steps
 
