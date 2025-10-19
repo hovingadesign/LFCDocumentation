@@ -22,25 +22,22 @@ Prepare the AM and PM service playlists by searching for and adding slides/songs
 
 1) Open ProPresenter and navigate to playlists
    - Launch ProPresenter; open the Playlists pane.
-   - Select today’s AM and PM playlists (create new if needed).
+   - Select the AM or PM playlists.
+   - Songs and slides from previous services may be in this playlist, simply highlight them in the lower "Items" pane and hit Delete on the keyboard to remove them.
 
    ![ProPresenter playlists]({{ '/images/live-stream/02-propresenter-playlists.png' | relative_url }})
 
 2) Search and add items to the playlist(s)
-   - Use the search bar to find songs/slides in the library.
+   - Once the Playlists are cleaned up from the previous week.
+   - Use the search button to find songs/slides in the library.
    - Drag items into AM/PM playlists; reorder via drag-and-drop.
-   - Rename playlist headings if needed (e.g., date + service time).
 
    ![Add items to playlists]({{ '/images/live-stream/02-propresenter-add-items.png' | relative_url }})
 
 ## Troubleshooting / Tips
 
 - If items are missing, check the library path and import status
-- Keep naming consistent for quick search and reuse
-
-## Developer docs (verify specifics)
-
-- Renewed Vision ProPresenter user guide – playlist management and search behaviors
+- If the output does not display on the Preview monitor when a slide is selected it means the system had an issue initilizing the video output card and a system reboot usually resolves the issue.
 
 ## Next Steps
 
