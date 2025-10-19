@@ -23,33 +23,18 @@ Use the SermonAudio ID to embed the sermon on the lfcopc.org website and fill in
 ## Steps
 
 1) Open the website editor/page for the service
-   - Log in to the CMS or site editor and open the page/post for the service.
-
-   ![Open site editor]({{ '/images/live-stream/06-site-editor.png' | relative_url }})
-
-2) Insert the SermonAudio embed using the copied ID
-   - Add the SermonAudio player via the site’s shortcode/HTML widget using the copied ID.
+   - Log in to the LFC website (https://lfcopc.org/wp-admin/).
+   - Hover over "New" and click "Sermon".
 
    ![Embed ID]({{ '/images/live-stream/06-embed-id.png' | relative_url }})
+   ![Open site editor]({{ '/images/live-stream/06-site-editor.png' | relative_url }})
 
-3) Add details (title, speaker, date) and update the page
+3) Insert the SermonAudio embed using the copied ID
+   - Paste the copied SermonAudio ID in the "Sermon Audio ID" field.
+   - Add details (title, passage, series, speaker, book, and check "Video" and "Audio" to yes) and click Publish
    - Fill in the page’s title/metadata as needed and publish/update.
 
    ![Update page details]({{ '/images/live-stream/06-update-page.png' | relative_url }})
-
-## Troubleshooting / Tips
-
-- If the embed does not render, verify the shortcode or HTML widget format
-- Confirm caching/CDN invalidation after updates
-
-## Developer docs (verify specifics)
-
-- Site CMS/theme documentation – embedding SermonAudio players
-- SermonAudio embed options – shortcode/iframe parameters
-
-## Next Steps
-
-Optional: Update site navigation or featured content to point to the new sermon.
 
 ---
 
